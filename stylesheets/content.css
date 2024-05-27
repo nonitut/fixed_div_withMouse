@@ -1,0 +1,44 @@
+*{ box-sizing: border-box;}
+
+@font-face {
+font-family: "CarlaSansLight";
+src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+p{ font-family: 'CarlaSansLight'; }
+
+
+body {
+    height: 2000px; 
+}
+
+#mainDiv {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 5px;
+}
+
+#closeBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
